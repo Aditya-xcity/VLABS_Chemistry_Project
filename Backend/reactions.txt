@@ -1,0 +1,21 @@
+# Reaction Format: Element1,Element2,Formula;IUPAC Name;Common Name
+H,O,H₂O;Dihydrogen Monoxide;Water
+Na,Cl,NaCl;Sodium Chloride;Salt
+C,O,CO₂;Carbon Dioxide;(None)
+C,O,CO;Carbon Monoxide;(None)
+N,H,NH₃;Nitrogen Trihydride;Ammonia
+S,O,SO₂;Sulfur Dioxide;(None)
+S,O,SO₃;Sulfur Trioxide;(None)
+Mg,O,MgO;Magnesium Oxide;Magnesia
+Al,O,Al₂O₃;Aluminum Oxide;Alumina
+Fe,O,Fe₂O₃;Iron(III) Oxide;Rust
+Fe,O,Fe₃O₄;Iron(II,III) Oxide;Magnetite
+Cu,O,CuO;Copper(II) Oxide;(None)
+Cu,O,Cu₂O;Copper(I) Oxide;Cuprite
+Zn,O,ZnO;Zinc Oxide;Zinc White
+H,Cl,HCl;Hydrogen Chloride;(Hydrochloric Acid when aqueous)
+H,S,H₂S;Hydrogen Sulfide;(None)
+Ca,O,CaO;Calcium Oxide;Quicklime
+Ag,S,Ag₂S;Silver Sulfide;Tarnish
+C,H,CH₄;Carbon Tetrahydride;Methane
+Si,O,SiO₂;Silicon Dioxide;Silica, Quartz
