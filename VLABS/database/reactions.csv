@@ -1,0 +1,59 @@
+# Format: El1,Qty1,El2,Qty2,ProductFormula,ProductName
+# Note: The order of elements does not matter.
+# --- Original Reactions ---
+H,2,O,1,H₂O,Water
+C,1,O,1,CO,Carbon Monoxide
+C,1,O,2,CO₂,Carbon Dioxide
+Na,1,Cl,1,NaCl,Sodium Chloride
+N,1,H,3,NH₃,Ammonia
+
+# --- Added Oxides (Metal + Oxygen) ---
+Mg,1,O,1,MgO,Magnesium Oxide
+Ca,1,O,1,CaO,Calcium Oxide (Quicklime)
+Fe,2,O,3,Fe₂O₃,Iron(III) Oxide (Rust)
+Fe,3,O,4,Fe₃O₄,Iron(II,III) Oxide (Magnetite)
+Al,2,O,3,Al₂O₃,Aluminum Oxide (Alumina)
+K,2,O,1,K₂O,Potassium Oxide
+Li,2,O,1,Li₂O,Lithium Oxide
+Cu,1,O,1,CuO,Copper(II) Oxide
+Cu,2,O,1,Cu₂O,Copper(I) Oxide
+Zn,1,O,1,ZnO,Zinc Oxide
+Ba,1,O,1,BaO,Barium Oxide
+Pb,1,O,2,PbO₂,Lead(IV) Oxide
+
+# --- Added Oxides (Non-Metal + Oxygen) ---
+S,1,O,2,SO₂,Sulfur Dioxide
+S,1,O,3,SO₃,Sulfur Trioxide
+P,4,O,10,P₄O₁₀,Tetraphosphorus Decoxide
+N,1,O,1,NO,Nitrogen Monoxide
+N,1,O,2,NO₂,Nitrogen Dioxide
+N,2,O,1,N₂O,Dinitrogen Monoxide (Laughing Gas)
+Si,1,O,2,SiO₂,Silicon Dioxide (Silica)
+
+# --- Added Halides (Metal/Non-Metal + Halogen) ---
+H,1,Cl,1,HCl,Hydrogen Chloride
+H,1,F,1,HF,Hydrogen Fluoride
+K,1,Cl,1,KCl,Potassium Chloride
+Mg,1,Cl,2,MgCl₂,Magnesium Chloride
+Ca,1,F,2,CaF₂,Calcium Fluoride
+Al,1,Cl,3,AlCl₃,Aluminum Chloride
+Fe,1,Cl,3,FeCl₃,Iron(III) Chloride
+Li,1,F,1,LiF,Lithium Fluoride
+K,1,Br,1,KBr,Potassium Bromide
+
+# --- Added Sulfides (Element + Sulfur) ---
+H,2,S,1,H₂S,Hydrogen Sulfide
+Ag,2,S,1,Ag₂S,Silver Sulfide (Tarnish)
+Zn,1,S,1,ZnS,Zinc Sulfide
+Fe,1,S,1,FeS,Iron(II) Sulfide
+C,1,S,2,CS₂,Carbon Disulfide
+
+# --- Added Hydrides (Element + Hydrogen) ---
+C,1,H,4,CH₄,Methane
+Si,1,H,4,SiH₄,Silane
+B,2,H,6,B₂H₆,Diborane
+Li,1,H,1,LiH,Lithium Hydride
+
+# --- Other Common Binary Compounds ---
+Ca,1,C,2,CaC₂,Calcium Carbide
+Mg,3,N,2,Mg₃N₂,Magnesium Nitride
