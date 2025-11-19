@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VLABS - Virtual Chemistry Laboratory</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> VLABS - Virtual Chemistry Laboratory</h1>
+            <p>Experiment with chemical reactions! Select elements to see what compounds they form.</p>
+            <div class="student-info">
+                <strong>ADITYA BHARDWAJ</strong> | D2 | Roll No: 08 | B.TECH CSE
+            </div>
+        </header>
+
+        <div class="lab-interface">
+            <div class="control-panel">
+                <h2>🧪 Periodic Table Elements</h2>
+                <div class="elements-grid" id="elementsGrid">
+                    <div class="loading">Loading elements...</div>
+                </div>
+
+                <div class="selected-elements">
+                    <h3>Selected Reactants:</h3>
+                    <div id="selectedElements" class="selected-list">
+                        <div class="empty-state">No elements selected</div>
+                    </div>
+                    <div class="reaction-controls">
+                        <button id="clearBtn" class="clear-button">🗑️ Clear</button>
+                        <button id="reactBtn" class="react-button" disabled>⚡ Start Reaction</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reaction-area">
+                <h2> Reaction Results</h2>
+                <div id="reactionOutput" class="output">
+                    <div class="welcome-message">
+                        <h3>Welcome to VLABS! 🧪</h3>
+                        <p>Select 2 elements from the periodic table to discover chemical reactions.</p>
+                        <div class="examples">
+                            <strong>Try these combinations:</strong>
+                            <div class="example-combinations">
+                                <span class="example" onclick="setExample('H', 'O')">H + O = Water</span>
+                                <span class="example" onclick="setExample('Na', 'Cl')">Na + Cl = Salt</span>
+                                <span class="example" onclick="setExample('C', 'O')">C + O = CO₂</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>🔬 Virtual Chemistry Laboratory - B.Tech CSE Project</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
